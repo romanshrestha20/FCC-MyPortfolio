@@ -476,20 +476,20 @@ footer {
     margin-bottom: 30px;
 }
 
-.contact-list {
-    display: inline-block;
-    color: #fff;
-    background: linear-gradient(#8e86b5, #acaeed);
-    border: 1px solid #a5b4fc;
-    padding: 15px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+.profile-button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: var(--primary-accent-color);
+    color: #FFF;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.contact-list:hover {
-    background: linear-gradient(#696484, #8788ba);
-    color: #a5b4fc;
+.profile-button:hover {
+    background-color: var(--secondary-accent-color);
 }
 
 .profile-image {
