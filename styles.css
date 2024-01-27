@@ -140,6 +140,10 @@ ul li {
 .main-section-button:hover {
     background: var(--secondary-accent-color);
 }
+
+/* .projects-section */
+
+
 .projects-section {
     padding: 10px;
     background-color: #1f2039;
@@ -295,6 +299,8 @@ h2.project-section-header {
 .see-more-btn:hover {
     background: var(--secondary-accent-color);
 }
+
+/* footer */
 
 footer {
     background-color: #111;
